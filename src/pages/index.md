@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+title: Laboratorio de Datos COVID19GT
+image: /img/covid.webp
+heading: 
+subheading: Creamos esta plataforma de servicio público para acopiar, procesar, analizar e interpretar datos.
 mainpitch:
   title: Why Kaldi
   description: >
