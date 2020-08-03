@@ -39,29 +39,10 @@ export const IndexPageTemplate = ({
         }}
       >
         <h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-          style={{
-            backgroundColor: '#fff',
-            color: 'rgb(70, 198, 233)',
-            lineHeight: '1',
-            padding: '0.25em',
-            borderRadius: '10px'
-          }}
+          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen main-heading"
         >
           {title}
         </h1>
-        <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-          style={{
-            backgroundColor: '#fff',
-            color: 'rgb(70, 198, 233)',
-            lineHeight: '1',
-            padding: '0.25em',
-            borderRadius: '10px'
-          }}
-        >
-          {subheading}
-        </h3>
       </div>
     </div>
     <section className="section section--gradient">

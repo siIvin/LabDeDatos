@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: Laboratorio de Datos COVID19GT
+title: LabDatos COVID19-GT
 image: /img/covid.webp
 heading: 
 subheading: Creamos esta plataforma de servicio público para acopiar, procesar, analizar e interpretar datos.

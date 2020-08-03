@@ -1,17 +1,56 @@
 @import "~bulma/sass/utilities/initial-variables"
 
+body
+  font-family: "Helvetica" !important
+
 // Config vars
 // Kaldi logo brand color: #FD461E
-$kaldi-red: #D64000
+$kaldi-red: #46C6E9
+$labd-blue: #05396B
 $kaldi-red-invert: #fff
 
 $primary: $kaldi-red
+$secondary: $labd-blue
 $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #2b2523
 
 .navbar .navbar-menu
   box-shadow:none !important
+
+.navbar-item
+    background-color: rgba(70, 198, 233, 0.5)
+    margin: 1.25rem 0.3rem
+    padding: 0.3rem 1.25rem !important
+    border-radius: 1.5rem
+    color: $secondary !important
+
+.navbar-brand .navbar-item
+    background-color: inherit
+    margin: 0
+    border-radius: 0
+
+.navbar.is-transparent .navbar-start a.navbar-item:hover
+  background-color: rgba(70, 198, 233, 0.5) !important
+
+.navbar-end .navbar-info
+  display: flex
+  flex-direction: column
+  justify-content: center
+  font-size: smaller
+  color: $secondary
+  background-color: rgba(70, 198, 233, 0.75)
+  padding: 1rem 1.2rem
+  border-radius: 1.5rem
+  margin: 0.65rem 0
+
+.main-heading
+  background-color: rgba(70, 198, 233, 0.75)
+  line-height: 1
+  padding: 1.5rem 2.5rem;
+  border-radius: 1.8em
+  color: $secondary
+  text-align: center
 
 .content .taglist
   list-style: none
